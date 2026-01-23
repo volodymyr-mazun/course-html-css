@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS</title>
-    <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -16,16 +19,16 @@
     </a>
 
     <nav>
-        <ul>
-            <li><a href="#clubs">Our Clubs</a></li>
-            <li><a href="#benefits">PF Benefits</a></li>
-            <li><a href="#programs">Tips and Programs</a></li>
+        <ul  class="club-list">
+            <li class="title"><a href="#clubs">Our Clubs</a></li>
+            <li class="title"><a href="#benefits">PF Benefits</a></li>
+            <li class="title"><a href="#programs">Tips and Programs</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <!--SECTION MAIN-->
-    <h1>Planet Fatness</h1>
+    <h1 class="page-title">Planet Fatness</h1>
     <p>
         Healthy food is delicious. Doing sport is enjoyable. You just need to start -
         people said. Nonsense! - I thought. To me, a 19-year-old guy, overweight and
@@ -48,7 +51,7 @@
 
     <!--SECTION ONE-->
 <section>
-        <h2 id="clubs">Find us near you</h2>
+        <h2 id="clubs" class="section-title">Find us near you</h2>
     <p>
         Get healthy, feel strong, and be happy! With 50+ classes on the menu,
         including HIIT classes, group fitness, and Personal Training, we have
@@ -84,7 +87,7 @@
 
     <!--SECTION TWO-->
 <section>
-        <h2 id="benefits">Why choose Planet Fatness?</h2>
+        <h2 id="benefits" class="section-title">Why choose Planet Fatness?</h2>
     <p>
         We're bringing accessible, on-trend fitness to everyone! We are more than just
         a gym - we are a community. We are the crew to help you reach the goals.
@@ -128,7 +131,7 @@
 
     <!--SECTION THREE-->
 <section>
-        <h2 id="programs">How to stop doubting and start exercising regularly</h2>
+        <h2 id="programs" class="section-title">How to stop doubting and start exercising regularly</h2>
     <p>
         Thousands of people dream about having a nice body. They start doing sport,
         face challenges and quit it in a few weeks or even days. Why does it happen?
@@ -139,20 +142,20 @@
         regularly. So, we offer you a few training programs for beginners.
     </p>
 
-    <ul>
-        <li>
+    <ul class="club-list">
+        <li class="title">
             <a href="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/Build-Muscles.pdf"
                 download="build-muscles-plan">
                 Download «Build Muscles» training plan
             </a>
         </li>
-        <li>
+        <li class="title">
             <a href="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/Burn-Fat.pdf"
                 download="burn-fat-plan">
                 Download «Burn Fat» training plan
             </a>
         </li>
-        <li>
+        <li class="title">
             <a href="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/Build-Strength&Mass.pdf"
                 download="strength-and-mass-plan">
                 Download «Build Strength and Mass» training plan
