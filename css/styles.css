@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", serif;
+}
+
+.fundation {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ /* ========== ВЛАСТИВІСТЬ OBJECT-FIT ========== */
+.thumb {
+    width: 480px;
+    border: 10px solid green;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+ /* ========== СІТКА ЕЛЕМЕНТІВ ========== */
+ .container-benefits {
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 0 16px;
+ }
+
+ .benefits {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 16px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .benefits .item {
+     width: calc((100% - 32px) / 3);
+ }
+
+ /* ========== ПЕРЕКЛЮЧЕННЯ МІЖ КОТАМИ ========== */
+ .pane {
+     display: none;
+     margin-top: 8px;
+ }
+
+ .pane.is-active {
+     display: block;
+ }
+
+ .controls {
+     display: flex;
+     gap: 8px;
+ }
+
+ /* ========== СТРУКТУРНІ ПСЕВДОКЛАСИ ========== */
+ .container-structura {}
+
+ .list-structura {}
+
+ .list-item-structura {
+    width: 400px;
+    padding: 5px 20px;
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+ }
+
+.list-item-structura:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.list-item-structura:nth-child(2n) {
+    background-color: yellow;
+}
+
+ /* ========== СТВОРЕННЯ ТАБЛИЦІ ========== */
+.product-table td,
+.product-table th {
+    padding: 4px 8px;
+    border: 1px solid #212121;
+}
+
+.product-table {
+    border-collapse: collapse;
+}
+
+.product-row:nth-child(odd) {
+    background-color: #03a9f4;
+}
+
+.product-row:nth-child(even) {
+    background-color: #ffeb3b;
+}
