@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:400,500,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css//styles.css">
+</head>
+<body>
+<section class="fundation">
+    <div class="container"></div>
+<!-- ============================================================================= -->
+    <h2 style="text-align: center; margin-bottom: 20px;">ВЛАСТИВІСТЬ OBJECT-FIT</h2>
+    <div class="thumb" style="margin: 0 auto 50px;">
+        <img src="https://images.pexels.com/photos/33492/cat-red-cute-mackerel.jpg?auto=compress&cs=tinysrgb&h=480&w=640"
+            alt="Cat">
+    </div>
+
+<!-- ============================================================================= -->
+    <h2 style="text-align: center; margin-bottom: 20px;">СІТКА ЕЛЕМЕНТІВ</h2>
+    <div class="container-benefits" style="margin: 0 auto 50px;">
+        <ol class="benefits">
+            <li class="item">
+                No blames, no empty promises, no people who are talking about things they
+                don't know about. Our mission is to create a safe space for you to change.
+            </li>
+            <li class="item">
+                All our coaches are certified experts. You may have tried to work hard but
+                we'll teach you to work smart.
+            </li>
+            <li class="item">
+                Your diet is no less important than your training. We believe in an
+                integrated approach which also includes dietitian's consultations and
+                motivational activities.
+            </li>
+            <li class="item">
+                Healthy menu require time and effort? Not in our healthy food bars. Let's
+                discover the world of tasty low-calorie dishes.
+            </li>
+            <li class="item">
+                You pay for reaching your goal. And it's our job to help you reach it as
+                soon as possible.
+            </li>
+            <li class="item">
+                Regular exercise helps prevent or manage many health problems and
+                concerns.
+            </li>
+        </ol>
+    </div>
+
+<!-- ============================================================================ -->
+    <h2 style="text-align: center; margin-bottom: 20px;">ПЕРЕКЛЮЧЕННЯ МІЖ КОТАМИ</h2>
+    <div class="tabs" style="margin: 0 auto 50px;">
+        <div class="controls">
+            <button data-id="pane-1">First cat</button>
+            <button data-id="pane-2">Second cat</button>
+            <button data-id="pane-3">Third cat</button>
+        </div>
+    
+        <div id="pane-1" class="pane is-active">
+            <img src="https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_1280.jpg" width="320" alt="">
+            <p><b>1</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="pane-2" class="pane">
+            <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" width="320" alt="">
+            <p><b>2</b> - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="pane-3" class="pane">
+            <img src="https://cdn.pixabay.com/photo/2020/10/01/11/41/cat-5618328_1280.jpg" width="320" alt="">
+            <p><b>3</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+<!-- =================================================================================== -->
+ <h2 style="text-align: center; margin-bottom: 20px;"> СТРУКТУРНІ ПСЕВДОКЛАСИ</h2>
+<div class="container-structura">
+    <ul class="list-structura">
+        <li class="list-item-structura">1</li>
+        <li class="list-item-structura">2</li>
+        <li class="list-item-structura">3</li>
+        <li class="list-item-structura">4</li>
+        <li class="list-item-structura">5</li>
+        <li class="list-item-structura">6</li>
+        <li class="list-item-structura">7</li>
+        <li class="list-item-structura">8</li>
+        <li class="list-item-structura">9</li>
+        <li class="list-item-structura">10</li>
+    </ul>
+</div>
+
+<div class="container-table">
+    <h2 style="text-align: center; margin-bottom: 20px;">СТВОРЕННЯ ТАБЛИЦІ</h2>
+    <table class="product-table">
+        <caption>
+            Minimalist food list for the balanced diet
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Food categories</th>
+                <th scope="colgroup" colspan="2">For 1 person for a month</th>
+            </tr>
+            <tr>
+                <th scope="col">Quantity in kg</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr class="product-row">
+                <td>Groceries</td>
+                <td>10,1</td>
+                <td>268</td>
+            </tr>
+            <tr class="product-row">
+                <td>Vegetables</td>
+                <td>12</td>
+                <td>230</td>
+            </tr>
+            <tr class="product-row">
+                <td>Desserts</td>
+                <td>3,8</td>
+                <td>124</td>
+            </tr>
+            <tr class="product-row">
+                <td>Fruits</td>
+                <td>5,3</td>
+                <td>82</td>
+            </tr>
+            <tr class="product-row">
+                <td>Fish</td>
+                <td>1,1</td>
+                <td>205</td>
+            </tr>
+            <tr class="product-row">
+                <td>Spices</td>
+                <td>0,3</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total price</th>
+                <td>919</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+
+
+</section>
+
+
+
+    <script src="./string.js"></script>
+</body>
+</html>
