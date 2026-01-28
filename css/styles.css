@@ -175,3 +175,38 @@ img {
              #e52e71 10px,
              #e52e71 20px);
  }
+
+ /* ========== ДЕКОРАТИВНИЙ ОВЕРЛЕЙ ========== */
+.decoration-gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.decoration-gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    border: 1px solid #212121;
+    border-radius: 4px;
+}
+
+.decoration-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    background-color: #3f51b5;
+    color: #fff;
+    font-family: sans-serif;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.decoration-gallery-item:hover .decoration-overlay {
+    transform: translateY(0);
+}
