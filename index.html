@@ -256,15 +256,33 @@
     </li>
 </ul>
 
-
-
-
-
-
-</section>
-
-
-
-    <script src="./string.js"></script>
-</body>
-</html>
+<!-- ================================================================================ -->
+<h2 style="text-align: center; margin-bottom: 20px;">СЕЛЕКТОР, ЗАГОЛОВКИ</h2>
+<form class="form" name="issue_report_form" autocomplete="off">
+    <label class="form-label">Your name
+        <input class="form-input" type="text" name="username" placeholder="Andrew Berger">
+    </label>
+    <label class="form-label">Topic
+        <input class="form-input" type="text" name="topic" placeholder="Short issue summary">
+    </label>
+    <label class="form-label">Description
+        <input class="form-input" type="text" name="description"
+            placeholder="Please provider a description issue description">
+    </label>
+    <label for="month"></label>
+    <select name="month" id="month">
+        <optgroup label="Summer">
+            <option value="s6">June</option>
+            <option value="s7">Jule</option>
+            <option value="s8">August</option>
+        </optgroup>
+        <optgroup label="Autumn">
+            <option value="Autumn">
+            <option value="s9">September</option>
+            <option value="s10">October</option>
+            <option value="s11">November</option>
+            </option>
+        </optgroup>
+    </select>
+    <button class="form-button" type="submit">Submit an issue</button>
+</form>
